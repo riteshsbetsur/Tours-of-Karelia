@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap");
+
+#main_container {
+  background-image: url("../../Assets/Semien-Mountains-Kingdom-of-Gondar-Ethiopia.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  margin-top: 5vh;
+}
+.pool {
+  font-family: "Oleo Script", cursive;
+  color: #232931;
+  font-size: 27px;
+}
+#more {
+  font-size: 6em;
+  font-family: "Kaisei Opti", serif;
+  text-transform: uppercase;
+  color: white;
+}
+#more:hover {
+  color: orange;
+}
+#buyTickets a {
+  padding: 15px 40px;
+  border: none;
+  border: 2px solid #222;
+  background: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  transition: all 250ms ease-in-out;
+  text-decoration: none;
+}
+#buyTickets :hover {
+  background: #222;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all 250ms ease-in-out;
+}

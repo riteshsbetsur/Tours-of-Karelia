@@ -1,0 +1,107 @@
+#mainFooter {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+  padding-top: 70px;
+}
+#mainFooter > article {
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+}
+#subFooter {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+#subFooter2,
+#subFooter3,
+#subFooter4,
+#subFooter5 {
+  flex-basis: 27%;
+}
+#subFooter2 p,
+#subFooter3 p,
+#subFooter4 p,
+#subFooter5 p,
+#subFooter6 p {
+  margin-bottom: 20px;
+  color: gray;
+  cursor: pointer;
+}
+#subFooter2 p:hover,
+#subFooter3 p:hover,
+#subFooter4 p:hover,
+#subFooter5 p:hover,
+#subFooter6 p:hover {
+  color: #ffb606;
+}
+#subFooter2 > h1,
+#subFooter3 > h1,
+#subFooter4 > h1,
+#subFooter5 > h1 {
+  margin-bottom: 40px;
+}
+#footerPhone,
+#footerLocation,
+#footerMail {
+  display: flex;
+  margin-bottom: 20px;
+  color: #ffb606;
+}
+
+#footerPhone > p,
+#footerLocation > p,
+#footerMail > p {
+  margin-left: 20px;
+  color: gray;
+}
+#socialIcons > span  {
+  margin-right: 10px;
+  font-size: 30px;
+ 
+  color: #fff;
+  cursor: pointer;
+}
+#socialIcons > span a:hover {
+  color: #ffb606;
+}
+#secondaryFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#secondaryFooter > p {
+  color: gray;
+  cursor: pointer;
+}
+#secondaryFooter > p:hover {
+  color: #ffb606;
+}
+#secondaryFooter > div > span {
+  margin-right: 25px;
+  color: gray;
+  cursor: pointer;
+}
+#secondaryFooter > div > span:hover {
+  color: #ffb606;
+}
+#subFooter6 {
+  margin-top: 27%;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: #ffb606;
+}
+#subFooter3 > div > span:hover {
+  cursor: pointer;
+  color: #ffb606;
+}
+
+#designed{
+  color: #ffb606;
+}

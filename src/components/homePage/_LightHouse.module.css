@@ -1,0 +1,148 @@
+.mainBlock {
+  width: 100%;
+  height: 100vh;
+}
+#lightImg {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+.description {
+  position: absolute;
+  z-index: 5;
+  top: 25%;
+  left: 12%;
+  /* color: white; */
+}
+.description > h1 {
+  font-size: 70px;
+}
+.description > p {
+  font-size: 20px;
+}
+.buy_play {
+  margin-top: 20px;
+  display: flex;
+}
+.buy_play > button {
+  margin-right: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+}
+.buy_play > button a:hover {
+  /* background-color: black; */
+  color: white;
+}
+.buy_play > button > a {
+  text-decoration: none;
+  color: black;
+}
+
+.buy_play > button a :hover {
+  color: white;
+  background-color: black;
+}
+.videoIconBlock {
+  display: flex;
+  margin-top: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.playCircleIcon {
+  margin-left: 10px;
+  font-size: 13px;
+  margin-top: -2px;
+}
+#first_div {
+  position: relative;
+  height: 25vh;
+  width: 30%;
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/id/1280183378/photo/a-polar-bear-swiming-underwater.jpg?s=612x612&w=0&k=20&c=Vv26TLyz1WpCeykJwPjIBrSjbLzlYZNCBFjqtK3zMFE=);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#first_div h1 {
+  position: absolute;
+  top: 29%;
+  color: aliceblue;
+  left: 15%;
+}
+#first_div p {
+  position: relative;
+  top: 50%;
+  color: aliceblue;
+}
+#second_div {
+  height: 25vh;
+  width: 30%;
+  text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixsZ3lizqM0gr1faU3g5ylhITXFk8h-gffg&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#second_div h1 {
+  position: relative;
+  top: 29%;
+  left: 3%;
+  color: aliceblue;
+}
+#second_div p {
+  position: relative;
+  top: 32%;
+  color: aliceblue;
+}
+#third_div {
+  height: 25vh;
+  width: 30%;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/30/09/49/moto-4983684_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#third_div h1 {
+  position: relative;
+  top: 29%;
+  left: 3%;
+  color: aliceblue;
+}
+#third_div p {
+  position: relative;
+  top: 32%;
+  color: aliceblue;
+}
+#forth_div {
+  position: relative;
+  height: 25vh;
+  width: 30%;
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/id/1320176584/photo/polar-bear.jpg?s=612x612&w=0&k=20&c=B4k9qRHRQIyiza7f0auG4w6H02JofINzQNxwpEfjSlM=);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#forth_div h1 {
+  position: absolute;
+  top: 33%;
+  left: 31%;
+  color: aliceblue;
+  font-size: 28px;
+}
+#forth_div p {
+  position: absolute;
+  top: 53%;
+  color: aliceblue;
+  left: 8%;
+}
+#block_section {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 75%;
+}

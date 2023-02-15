@@ -1,0 +1,52 @@
+#uniqueTour {
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 20vh;
+  right: 74vw;
+  z-index: 2;
+}
+#carosalx {
+  position: relative;
+  z-index: 2;
+}
+#video {
+  position: absolute;
+  left: 10vw;
+    z-index: 2;
+}
+#retroTrain {
+  position: absolute;
+  top: 5vh;
+  left: 35vw;
+  width: 50vw;
+    z-index: 2;
+}
+
+#buyTickets {
+  padding: 15px 40px;
+  border: none;
+  border: 2px solid #222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  transition: all 250ms ease-in-out;
+}
+#buyTickets:hover {
+  background: #222;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all 250ms ease-in-out;
+}
+#intermidate {
+  height: 50vh;
+  width: 90vw;
+  background-color: #efefef;
+  position: absolute;
+  top: 3vh;
+  z-index: 1;
+  left: 0vw;
+}
+#Box {
+  z-index: 2;
+}
